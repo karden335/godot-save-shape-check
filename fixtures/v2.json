@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "player": {
+    "name": "Ada",
+    "health": 42
+  },
+  "inventory": ["potion"],
+  "difficulty": "normal",
+  "legacy_debug": true
+}

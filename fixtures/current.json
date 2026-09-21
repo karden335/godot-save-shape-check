@@ -1,0 +1,12 @@
+{
+  "schema_version": 3,
+  "player": {
+    "name": "Ada",
+    "health": 42
+  },
+  "inventory": ["potion"],
+  "difficulty": "normal",
+  "settings": {
+    "subtitle_size": 1.0
+  }
+}

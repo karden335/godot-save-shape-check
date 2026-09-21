@@ -1,0 +1,27 @@
+name: Godot Save Shape Check
+description: Compare released JSON save fixtures with the current representative save shape
+inputs:
+  current:
+    description: Path to the current representative JSON save
+    required: true
+  old:
+    description: Space-separated paths to released JSON save fixtures
+    required: true
+  strict:
+    description: Fail when new fields need defaults as well as on breaking changes
+    required: false
+    default: "false"
+runs:
+  using: composite
+  steps:
+    - name: Compare save fixtures
+      shell: bash
+      env:
+        CURRENT_FIXTURE: ${{ inputs.current }}
+        OLD_FIXTURES: ${{ inputs.old }}
+        STRICT_MODE: ${{ inputs.strict }}
+      run: |
+        strict_arg=""
+        if [[ "$STRICT_MODE" == "true" ]]; then strict_arg="--strict"; fi
+        # OLD_FIXTURES intentionally supports simple, repository-relative paths without spaces.
+        python3 "$GITHUB_ACTION_PATH/save_shape_check.py" --current "$CURRENT_FIXTURE" --old $OLD_FIXTURES $strict_arg
