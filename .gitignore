@@ -2,6 +2,6 @@
 .godot/
 dist/
 *.uid
+*.import
 *.pyc
 __pycache__/
-
