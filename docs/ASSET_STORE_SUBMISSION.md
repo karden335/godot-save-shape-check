@@ -14,7 +14,7 @@ This file contains the reviewed listing data for the official Godot Asset Store.
 - **Version:** 0.2.0
 - **Tags:** Save Games, JSON, Compatibility, QA, Editor Tool, Testing
 - **Archive:** `dist/godot-save-shape-check-0.2.0.zip`
-- **Thumbnail:** `media/icon.png`
+- **Thumbnail:** `media/store-thumbnail.png` (1280×720, 16:9)
 
 ## Detailed description
 
@@ -40,6 +40,7 @@ Code and listing text were created with AI assistance. The release was checked w
 - [x] `LICENSE` and `README.md` are inside the add-on folder.
 - [x] Archive contains only `addons/save_shape_check/`.
 - [x] Source repository has a root MIT license and `.gitignore`.
+- [x] Listing thumbnail is a 1280×720 original image (16:9).
 - [x] English name and description use full sentences.
 - [x] AI assistance is disclosed.
 - [x] No pop-up or in-editor advertisement for the paid version.
