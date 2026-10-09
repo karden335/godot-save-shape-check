@@ -1,0 +1,14 @@
+{
+  "player": {
+    "name": "Ada",
+    "level": 7,
+    "display_name": "Ada"
+  },
+  "inventory": [
+    {
+      "item_id": "potion",
+      "count": 2
+    }
+  ]
+}
+

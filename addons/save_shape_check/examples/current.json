@@ -1,0 +1,16 @@
+{
+  "player": {
+    "name": "Ada",
+    "level": 8,
+    "settings": {
+      "music_volume": 0.8
+    }
+  },
+  "inventory": [
+    {
+      "item_id": "potion",
+      "quantity": 2
+    }
+  ]
+}
+
