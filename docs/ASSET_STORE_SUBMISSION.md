@@ -1,6 +1,6 @@
 # Godot Asset Store submission — v0.2.0
 
-This file contains the reviewed listing data saved in the official Godot Asset Store Draft. It has not been submitted for moderation.
+This file contains the reviewed listing data submitted to the official Godot Asset Store for manual moderation on 2026-10-14. The authenticated Overview reports `Asset Status: Pending`.
 
 ## Listing
 
@@ -48,4 +48,4 @@ Code and listing text used AI assistance. Verified with 4 Python tests, 6 headle
 - [x] Publisher `Karrden` (`karrden`) is signed in and the asset Draft exists.
 - [x] Required listing fields, thumbnail, source URL, AI disclosure and five tags are saved.
 - [x] Stable version 0.2.0 is uploaded with minimum Godot 4.4 and no maximum.
-- [ ] Listing has been submitted for manual review.
+- [x] Listing has been submitted for manual review; current asset status is `Pending`.
