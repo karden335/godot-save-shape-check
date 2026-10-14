@@ -1,6 +1,6 @@
 # Godot Asset Store submission — v0.2.0
 
-This file contains the reviewed listing data for the official Godot Asset Store. It does not mean the asset has been submitted.
+This file contains the reviewed listing data saved in the official Godot Asset Store Draft. It has not been submitted for moderation.
 
 ## Listing
 
@@ -12,9 +12,9 @@ This file contains the reviewed listing data for the official Godot Asset Store.
 - **Minimum Godot version:** 4.4
 - **Maximum Godot version:** leave empty
 - **Version:** 0.2.0
-- **Tags:** Save Games, JSON, Compatibility, QA, Editor Tool, Testing
+- **Tags:** Save System, Editor Tool, Testing, JSON, Compatibility
 - **Archive:** `dist/godot-save-shape-check-0.2.0.zip`
-- **Thumbnail:** `media/store-thumbnail.png` (1280×720, 16:9)
+- **Thumbnail:** `media/store-thumbnail.jpg` (1280×720, 16:9, 86.6 KB)
 
 ## Detailed description
 
@@ -32,7 +32,7 @@ Independent community tool; not affiliated with or endorsed by the Godot Foundat
 
 ## AI usage disclosure
 
-Code and listing text were created with AI assistance. The release was checked with four Python unit tests, six headless GDScript analyzer tests, a headless end-to-end dock test, deterministic archive validation and Godot editor startup QA on Godot 4.4.1 and 4.7.2.
+Code and listing text used AI assistance. Verified with 4 Python tests, 6 headless GDScript tests, an end-to-end dock test, archive validation, and Godot editor startup on 4.4.1 and 4.7.2.
 
 ## Review checklist
 
@@ -40,10 +40,12 @@ Code and listing text were created with AI assistance. The release was checked w
 - [x] `LICENSE` and `README.md` are inside the add-on folder.
 - [x] Archive contains only `addons/save_shape_check/`.
 - [x] Source repository has a root MIT license and `.gitignore`.
-- [x] Listing thumbnail is a 1280×720 original image (16:9).
+- [x] Store thumbnail is a 1280×720 JPEG (16:9) below the 600 KB limit.
 - [x] English name and description use full sentences.
 - [x] AI assistance is disclosed.
 - [x] No pop-up or in-editor advertisement for the paid version.
 - [x] Godot 4.4.1 and 4.7.2 load the enabled plugin and pass the analyzer and dock tests.
-- [ ] Publisher has signed in to the Godot account system.
+- [x] Publisher `Karrden` (`karrden`) is signed in and the asset Draft exists.
+- [x] Required listing fields, thumbnail, source URL, AI disclosure and five tags are saved.
+- [x] Stable version 0.2.0 is uploaded with minimum Godot 4.4 and no maximum.
 - [ ] Listing has been submitted for manual review.
