@@ -6,8 +6,8 @@ jobs:
   python:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.9"
       - run: python3 -m unittest discover -s tests
@@ -17,7 +17,7 @@ jobs:
     env:
       GODOT_VERSION: 4.4.1
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Download official Godot editor
         run: |
           curl --fail --location --silent --show-error \
