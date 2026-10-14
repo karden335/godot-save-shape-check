@@ -1,42 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Godot Save Shape Check">
   <defs>
-    <linearGradient id="background" x1="80" y1="40" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#24345f"/>
-      <stop offset="1" stop-color="#6a52cc"/>
+    <linearGradient id="background" x1="70" y1="20" x2="1210" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#202f59"/>
+      <stop offset="1" stop-color="#684fc6"/>
     </linearGradient>
     <linearGradient id="icon-background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#405593"/>
       <stop offset="1" stop-color="#7d69df"/>
     </linearGradient>
     <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#121938" flood-opacity=".34"/>
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#11182f" flood-opacity=".38"/>
     </filter>
   </defs>
 
   <rect width="1280" height="720" fill="url(#background)"/>
-  <circle cx="1150" cy="85" r="260" fill="#9b8bf4" opacity=".12"/>
-  <circle cx="1050" cy="720" r="330" fill="#25396c" opacity=".28"/>
-  <path d="M0 566C245 484 407 579 638 534c230-44 371-170 642-90v276H0Z" fill="#142346" opacity=".36"/>
+  <circle cx="1160" cy="65" r="260" fill="#b1a4ff" opacity=".10"/>
+  <circle cx="1020" cy="745" r="350" fill="#172548" opacity=".24"/>
 
-  <g transform="translate(105 145)" filter="url(#shadow)">
-    <rect width="430" height="430" rx="94" fill="url(#icon-background)"/>
-    <path d="M215 70 339 117v86c0 75-49 127-124 156-75-29-124-81-124-156v-86l124-47Z" fill="#fff" opacity=".97"/>
-    <path d="m149 210 42 42 91-91" fill="none" stroke="#36b37e" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M148 140h134" stroke="#405593" stroke-width="20" stroke-linecap="round" opacity=".72"/>
+  <g transform="translate(92 160)" filter="url(#shadow)">
+    <rect width="400" height="400" rx="88" fill="url(#icon-background)"/>
+    <path d="M200 65 316 109v81c0 70-46 119-116 146-70-27-116-76-116-146v-81l116-44Z" fill="#fff" opacity=".97"/>
+    <path d="m138 197 39 39 85-85" fill="none" stroke="#36b37e" stroke-width="27" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M138 132h124" stroke="#405593" stroke-width="19" stroke-linecap="round" opacity=".72"/>
   </g>
 
-  <g fill="#fff" font-family="Helvetica Neue, Arial, sans-serif">
-    <text x="610" y="245" font-size="28" font-weight="600" letter-spacing="4" opacity=".75">GODOT EDITOR PLUGIN</text>
-    <text x="610" y="335" font-size="76" font-weight="700">Save Shape</text>
-    <text x="610" y="417" font-size="76" font-weight="700">Check</text>
-    <text x="614" y="477" font-size="28" opacity=".88">Catch breaking JSON save changes</text>
-    <text x="614" y="516" font-size="28" opacity=".88">before you ship an update.</text>
-  </g>
-
-  <g font-family="Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="600">
-    <rect x="610" y="560" width="142" height="48" rx="24" fill="#fff" opacity=".16"/>
-    <text x="642" y="591" fill="#fff">Godot 4.4+</text>
-    <rect x="770" y="560" width="230" height="48" rx="24" fill="#36b37e"/>
-    <text x="807" y="591" fill="#102f2a">Local · No telemetry</text>
+  <g fill="#fff" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" filter="url(#shadow)">
+    <text x="555" y="306" font-size="88" letter-spacing="1">GODOT SAVE</text>
+    <text x="555" y="420" font-size="88" letter-spacing="1">SHAPE CHECK</text>
   </g>
 </svg>
