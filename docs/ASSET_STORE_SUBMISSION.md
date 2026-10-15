@@ -1,6 +1,6 @@
 # Godot Asset Store submission — v0.2.0
 
-This file contains the reviewed listing data submitted to the official Godot Asset Store for manual moderation on 2026-10-14. The authenticated Overview reports `Asset Status: Pending`.
+This file contains the reviewed listing data submitted to the official Godot Asset Store for manual moderation on 2026-10-14. The moderator accepted the corrected listing on 2026-10-15; the authenticated Overview reports `Asset Status: Public`.
 
 ## Listing
 
@@ -54,4 +54,4 @@ Exact `AI Usage Explanation` field (242/256 characters):
 - [x] Required listing fields, thumbnail, source URL, AI disclosure and five tags are saved.
 - [x] Stable version 0.2.0 is uploaded with minimum Godot 4.4 and no maximum.
 - [x] Moderator-requested thumbnail is saved; the duplicate AI paragraph is absent from the detailed description and the dedicated disclosure is unchanged.
-- [x] Listing has been resubmitted for manual review and current asset status is `Pending`. The owner reserved the latest moderator-ticket reply for themselves.
+- [x] Moderator accepted the corrected listing and the asset is public. The first post-approval check reports one all-time download.
