@@ -53,5 +53,5 @@ Exact `AI Usage Explanation` field (242/256 characters):
 - [x] Publisher `Karrden` (`karrden`) is signed in and the asset Draft exists.
 - [x] Required listing fields, thumbnail, source URL, AI disclosure and five tags are saved.
 - [x] Stable version 0.2.0 is uploaded with minimum Godot 4.4 and no maximum.
-- [x] Moderator-requested thumbnail and AI-disclosure revisions are saved.
-- [x] Listing has been resubmitted for manual review and the moderator ticket has been answered; current asset status is `Pending`.
+- [x] Moderator-requested thumbnail is saved; the duplicate AI paragraph is absent from the detailed description and the dedicated disclosure is unchanged.
+- [x] Listing has been resubmitted for manual review and current asset status is `Pending`. The owner reserved the latest moderator-ticket reply for themselves.
