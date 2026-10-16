@@ -26,6 +26,6 @@ Extract `godot-save-shape-check-0.2.0.zip` into the root of a Godot 4.4+ project
 
 Files stay local. This release has no network requests, telemetry, service account or package dependency.
 
-The optional [$7 Godot Save Compatibility Guard](https://karrden.itch.io/godot-save-compatibility-guard) adds sequential migration simulation, a matching runtime helper, broken and fixed fixtures, integration tests, and a release checklist. The [$10 Godot Release Safety Bundle](https://itch.io/s/204610/godot-release-safety-bundle) includes that kit plus Godot Data Export Guard.
+The optional [$3 Godot Save Compatibility Guard](https://karrden.itch.io/godot-save-compatibility-guard) adds sequential migration simulation, a matching runtime helper, broken and fixed fixtures, integration tests, and a release checklist. The [$5 Godot Release Safety Bundle](https://itch.io/s/204610/godot-release-safety-bundle) includes that kit plus Godot Data Export Guard.
 
 AI disclosure: code and text were created with AI assistance, then checked using the tests and editor startup steps listed above.
